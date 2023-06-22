@@ -2,9 +2,9 @@
 
 ## API Docs
 
-**GET** '/tasks'
+**GET** `/tasks`
 Get the list of all tasks
-'''json
+```json
 {
   {
     "id": 1,
@@ -19,15 +19,15 @@ Get the list of all tasks
     "completed": false,
   }
 }
-'''
-**GET** '/tasks/{id}'
+```
+**GET** `/tasks/{id}`
 Get task by id
-'''json
+```json
 {
     "id": 1,
     "title": "Payment of light bill",
     "due_date": 20220205,
     "completed": false,
 }
-'''
+```
 ## Entities
